@@ -67,7 +67,7 @@ export default function Navbar() {
                 </label>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <button className="btn btn-active bg-[#2541B2] btn-sm sm:px-3">Login/Signup</button>
+              <a href="/login" className="btn btn-active bg-[#2541B2] btn-sm sm:px-3">Login/Signup</a>
               </div>
             </div>
           </div>
