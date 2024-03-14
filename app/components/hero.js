@@ -15,8 +15,7 @@ export default function Hero(){
                 Talk with Faculty
             </a> 
         </div>
-        <div className =" lg:mt-0 lg:col-span-5 lg:flex sm:col-span-1  rounded-2xl">
-
+        <div className ="lg:mt-0 lg:col-span-5 lg:flex sm:col-span-1 rounded-2xl">
             <img src="/IMG/Books.png" className = "rounded-2xl" alt="mockup"/>
         </div>                
     </div>
