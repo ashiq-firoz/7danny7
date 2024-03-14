@@ -3,7 +3,7 @@ export default function Login() {
     <>
       <section className="bg-gray-900 h-[100vh]">
         <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-3 justify-center">
-          <div className="hidden lg:block col-span-2 lg:col-span-2 lg:mt-0 px-4 py-24">
+          <div className="hidden lg:block col-span-2 lg:col-span-2 lg:mt-0 px-4 py-16">
             <img src="/IMG/Login.jpg" className="rounded-md"></img>
           </div>
           <div className="col-span-1 lg:col-span-2">
