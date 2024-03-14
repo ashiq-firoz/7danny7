@@ -3,8 +3,8 @@ export default function Login() {
     <>
       <section className="bg-gray-900 h-[100vh]">
         <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-3 justify-center">
-          <div className="hidden lg:block col-span-2 lg:col-span-2 lg:mt-0 ">
-            <img src="/IMG/Books.png" className="rounded-md"></img>
+          <div className="hidden lg:block col-span-2 lg:col-span-2 lg:mt-0 px-4 py-24">
+            <img src="/IMG/Login.jpg" className="rounded-md"></img>
           </div>
           <div className="col-span-1 lg:col-span-2">
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -53,17 +53,17 @@ export default function Login() {
                         className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                       />
                       <div className="flex items-center justify-between py-2">
-                      <div className="text-sm">
-                        <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                          &nbsp;
-                        </a>
+                        <div className="text-sm">
+                          <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                            &nbsp;
+                          </a>
+                        </div>
+                        <div className="text-sm">
+                          <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                            Forgot password?
+                          </a>
+                        </div>
                       </div>
-                      <div className="text-sm">
-                        <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                          Forgot password?
-                        </a>
-                      </div>
-                    </div>
                     </div>
                   </div>
 
@@ -79,7 +79,7 @@ export default function Login() {
                 <p className="mt-10 text-center text-sm text-white">
                   Not a member?{' '}
                   <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                    Start a 14 day free trial
+                    Join now
                   </a>
                 </p>
               </div>
