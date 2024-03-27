@@ -24,7 +24,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Fantasy
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -34,7 +34,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/Fantasy.jpg" className="h-70 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -60,7 +60,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Crime
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -70,7 +70,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/Crime.jpg" className="h-70 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -96,7 +96,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Sci-Fi
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -106,7 +106,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/SciFi.jpg" className="h-70 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -132,7 +132,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Science
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -142,7 +142,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/Science.png" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -168,7 +168,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Mathematics
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -178,7 +178,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/Mathematics.png" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -204,7 +204,7 @@ export default function Trending() {
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                                Make things float in air
+                                Technology
                             </CardItem>
                             <CardItem
                                 as="p"
@@ -214,7 +214,7 @@ export default function Trending() {
                                 Hover over this card to unleash the power of CSS perspective
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img src="/img/Books.jpg" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
+                                <img src="/img/Technology.png" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"></img>
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem>
@@ -238,19 +238,7 @@ export default function Trending() {
                 </div>
             </section>
         </center>
-            <AuroraBackground>
-                <motion.div
-                    initial={{ opacity: 0.0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{
-                        delay: 0.3,
-                        duration: 0.8,
-                        ease: "easeInOut",
-                    }}
-                    className="relative flex flex-col gap-4 items-center justify-center px-4"
-                >
-                </motion.div>
-            </AuroraBackground></>
+        </>
     )
 }
 
