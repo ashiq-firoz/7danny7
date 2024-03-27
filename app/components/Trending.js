@@ -4,10 +4,12 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { AuroraBackground } from "./ui/aurora-background";
 
 export default function Trending() {
     return (
-        <center>
+        <><center>
             <div>
                 &nbsp;
             </div>
@@ -236,5 +238,19 @@ export default function Trending() {
                 </div>
             </section>
         </center>
+            <AuroraBackground>
+                <motion.div
+                    initial={{ opacity: 0.0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        delay: 0.3,
+                        duration: 0.8,
+                        ease: "easeInOut",
+                    }}
+                    className="relative flex flex-col gap-4 items-center justify-center px-4"
+                >
+                </motion.div>
+            </AuroraBackground></>
     )
 }
+
