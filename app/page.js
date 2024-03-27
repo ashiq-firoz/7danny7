@@ -1,6 +1,6 @@
 "use client";
 
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Trending from "./components/Trending";
  
 import { motion } from "framer-motion";

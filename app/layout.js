@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <title>Library Management System</title>
-      <body className={`${inter.className} `}>
+      <body className={`${inter.className} bg-slate-900`}>
         <Navbar/>
         {children}
         </body>
