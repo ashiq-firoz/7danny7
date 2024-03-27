@@ -8,9 +8,11 @@ import Link from "next/link";
 export default function Trending() {
     return (
         <center>
-            <br></br>
             <div>
-                <span className="text-5xl text-white py-10">TRENDING</span>
+                &nbsp;
+            </div>
+            <div>
+                <span className="text-5xl text-white py-10 font-bold font-serif"> TRENDING </span>
             </div>
             <section className="grid grid-cols-3">
                 <div className="col-span-1">
@@ -37,7 +39,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -73,7 +75,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -109,7 +111,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -145,7 +147,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -181,7 +183,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -217,7 +219,7 @@ export default function Trending() {
                                     &nbsp;
                                 </CardItem>
                                 <CardItem
-                                    translateZ={10}
+                                    translateZ={20}
                                     as="button"
                                     href="https://twitter.com/mannupaaji"
                                     target="__blank"
@@ -228,6 +230,9 @@ export default function Trending() {
                             </div>
                         </CardBody>
                     </CardContainer>
+                </div>
+                <div>
+                    &nbsp;
                 </div>
             </section>
         </center>
